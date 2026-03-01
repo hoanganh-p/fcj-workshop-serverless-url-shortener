@@ -1,0 +1,11 @@
+version: "3"
+services:
+  hugo:
+    # image: hugo-project
+    image: klakegg/hugo:latest
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./:/src
+    command: server --bind 0.0.0.0 --poll 700ms
+    # command: hugo server --bind 0.0.0.0
