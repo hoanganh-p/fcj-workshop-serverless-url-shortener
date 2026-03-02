@@ -1,4 +1,4 @@
-baseURL = "https://hoanganh-p.github.io/fcj-workshop/"
+baseURL = "https://hoanganh-p.github.io/fcj-workshop-url-shortener/"
 relativeURLs = true
 canonifyURLs = true
 
